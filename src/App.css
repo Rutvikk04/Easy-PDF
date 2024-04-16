@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ul, ol {
+    list-style: revert;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2872cd;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #185298;
+}
+
+#pdf {
+  padding: 10px;
+}
+
+
+ li  {
+  font-size: 24px;
+}
+
+#pdf p {
+  font-size: 24px;
+}
+
+#pdf h1 {
+  font-size: 34px;
+}
+
+#pdf h2 {
+  font-size: 30px;
+}
+
+#pdf h3 {
+  font-size: 26px;
+}
